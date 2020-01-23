@@ -34,9 +34,8 @@
     <!-- Navbar -->
         <h1 class="text-center my-5">Download & Save Facebook Video</h1>
         <div class="row">
-            <div class="col-md-3 mt-5 d-none d-md-block" style="margin-top: 80px !important">
-                <!-- Google ads -->
-               <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ur1&category=kindle&banner=1Y73E3KVWCWRGDBQ5ER2&f=ifr&linkID=aa838c092d4bcb95331aa2df8e34b24e&t=eissawebid-20&tracking_id=eissawebid-20" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+            <div class="col-md-3 mt-3 d-none d-md-block">
+                <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=topratedproducts&banner=11X1Y6FZ67GYSYVDDB02&f=ifr&linkID=bec0ae86442481fb4bb3e4acfb320fa0&t=eissawebid-20&tracking_id=eissawebid-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
             </div>
             <div class="col-md-6">
                 <!-- This will be part  of download-video component -->
@@ -57,10 +56,12 @@
                
             </div>
         </div>
+
     </div>
     <!-- Blog Place, we will not use vue.js for the sake of SEO -->
     <?php include ('inc/how-to-download.php') ?>
     <!-- Footer -->
+    
     <?php include ('inc/footer.php') ?>
     <script src="js/app.js"></script>
 </body>
