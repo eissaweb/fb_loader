@@ -25,16 +25,17 @@ try {
     //$msg['id'] = generateId($url);
     $msg['id'] = extract_id_from_url($url);
     $msg['title'] = getTitle($data);
-
+    $msg['title'] = str_replace(['/', ' '], '_', $msg['title']);
     // get the thumbnail
     $msg['thumbnail'] = "https://graph.facebook.com/{$msg['id']}/picture";
     if ($sdLink = getSDLink($data)) {
-        $msg['links']['download_low'] = $sdLink;
+        $msg['links']['download_low'] = urlencode($sdLink);
     }
 
     if ($hdLink = getHDLink($data)) {
-        $msg['links']['download_high'] = $hdLink;
+        $msg['links']['download_high'] = urlencode($hdLink);
     }
+    $msg['links']['play_video'] = $hdLink ?  $hdLink :  $sdLink;
 } catch (Exception $e) {
     $msg['success'] = false;
     $msg['message'] = $e->getMessage();
