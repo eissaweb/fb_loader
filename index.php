@@ -56,9 +56,9 @@
                
             </div>
         </div>
-
-    </div>
     <div id="amzn-assoc-ad-b73a3846-0c65-45d7-99fb-2fd5c46483a7"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=b73a3846-0c65-45d7-99fb-2fd5c46483a7"></script>
+    </div>
+    
     <!-- Blog Place, we will not use vue.js for the sake of SEO -->
     <?php include ('inc/how-to-download.php') ?>
     <!-- Footer -->
