@@ -28,7 +28,7 @@
         </span>
     </nav>
     </div>
-    <div class="container  bg-white rounded" id="app" style="border:1px solid #bbb">
+    <div class="container  bg-white rounded"  style="border:1px solid #bbb">
         <!-- Navbar -->
         <!-- Image and text -->
     <!-- Navbar -->
@@ -37,7 +37,7 @@
             <div class="col-md-3 mt-3 d-none d-md-block">
                 <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=topratedproducts&banner=11X1Y6FZ67GYSYVDDB02&f=ifr&linkID=bec0ae86442481fb4bb3e4acfb320fa0&t=eissawebid-20&tracking_id=eissawebid-20" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" id="app">
                 <!-- This will be part  of download-video component -->
                 <download-video></download-video>
                 <affiliate-ads ads=""></affiliate-ads>
@@ -58,6 +58,7 @@
         </div>
 
     </div>
+    <div id="amzn-assoc-ad-b73a3846-0c65-45d7-99fb-2fd5c46483a7"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=b73a3846-0c65-45d7-99fb-2fd5c46483a7"></script>
     <!-- Blog Place, we will not use vue.js for the sake of SEO -->
     <?php include ('inc/how-to-download.php') ?>
     <!-- Footer -->
