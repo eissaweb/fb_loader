@@ -4,3 +4,5 @@ $path = __DIR__ . '/visitors.txt';
 $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
 $data = file_get_contents($path) . $ip . PHP_EOL;
 file_put_contents($path, $data);
+
+

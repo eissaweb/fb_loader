@@ -1,4 +1,6 @@
-<?php require_once 'app/counter.php'; ?>
+<?php 
+require_once 'app/counter.php';
+require_once 'app/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,22 +19,12 @@
     <script data-ad-client="ca-pub-8029326152956282" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body class="" style="font-family: 'Roboto', sans-serif !important;">
-    <div class="container">
-        <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="icons/apple-touch-icon.png" width="30" height="30" class="d-inline-block align-top" alt=" Facebook downloader">
-        <span style="font-family: 'Fredoka One', cursive;">Eissaweb</span>
-      </a>
-      <span class="float-right d-none d-md-inline">
-            Want to create a website ? <a href="mailto:iss7a99@gmail.com" class="btn btn-outline-secondary">Contact the Developer</a> 
-        </span>
-    </nav>
-    </div>
+   <?php require_once 'inc/navbar.php'; ?>
     <div class="container  bg-white rounded"  style="border:1px solid #bbb">
         <!-- Navbar -->
         <!-- Image and text -->
     <!-- Navbar -->
-        <h1 class="text-center my-5">Download & Save Facebook Video</h1>
+        <h1 class="text-center my-5"><?= $pageName ?>Download & Save Facebook Video</h1>
         <div class="row">
             <div class="col-md-2 mt-3 d-none d-md-block">
                
