@@ -1,5 +1,5 @@
 <div class="container my-5">
-	<h3>Free online Facebook video downloader</h3>
+	<h2>Free online Facebook video downloader</h2>
 	<p>
 		Eissaweb is one of the best tools available online for convert videos from Facebook to mp4 (video) or mp3 (audio) files and download them for free - this service works for computers, tablets and mobile devices.
 
@@ -11,7 +11,7 @@
 	</p>
 	<div class="row">
 		<div class="col-12 col-md-6">
-			<h3 class="">How to use Facebook video downloader ? </h3>
+			<h4 class="">How to use Facebook video downloader ? </h4>
 			<ol>
 				<li>First get the Facebook video url and copy it </li>
 				<li>paste the list and hit start</li>
@@ -19,7 +19,7 @@
 			</ol>
 		</div>
 		<div class="col-12 col-md-6">
-			<h3>Features: </h3>
+			<h4>Facebook Downloader Features: </h4>
 			<ul>
 				<li>It free to use :)</li>
 				<li>No registration required</li>

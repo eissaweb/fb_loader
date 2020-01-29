@@ -1,14 +1,15 @@
 <?php 
-$desc = 'Download and save Facebook videos in just one click, download mp4 360 or HD definition, start using eissaweb to download facebook videos, any facebbok page or post that you want to save it, downloading facebook videos can be easy with our application, just one click, its free to download any video you want, download any video for free';
+$desc = 'Facebook video downloader to download videos quickly, choose a format you want if HD or 360p MP4,
+    Download facebook page videos for free.';
 
 ?>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="<?= $desc ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
 	
-
+    <meta name="keywords" content="Facebook Downloader, download video from facebook, online video downloader, easy way to download facebook videos" />
 	
     <meta itemprop="name" content="Download Video  from Facebook" />
     <meta itemprop="description" content="<?= $desc ?>" />	
